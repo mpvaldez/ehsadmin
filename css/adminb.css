@@ -1,0 +1,125 @@
+.mini
+{
+	font-size: 12px;
+	border-width: 0;
+	width: 55px;
+	height: 25px;
+	text-align: center;
+	border-radius: 3px;
+}
+.mini:focus
+{
+	box-shadow: -5px -5px 0;
+	transform: translate(5px, 5px);
+}
+TH, TD
+{
+	text-align: center;
+	/*[empty]background-color:;*/
+}
+TBODY TR TD.cambiar
+{
+	background-color: #03A9F4;
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+TBODY TR TD.concepto
+{
+	vertical-align: middle;	
+}
+THEAD TR.mega
+{
+	height: 100px;
+}
+THEAD TR.periodo
+{
+	height: 61.5px;
+}
+TBODY TR.tipo_depto
+{
+	height: 38px;
+	margin: 0px;
+	padding-top: 0;
+}
+TBODY TR.pigmeo
+{
+	height: 10px;
+}
+TBODY TR.tipo_fecha
+{
+	height: 35px;
+}
+TBODY TR.medio
+{
+	height: 40px;
+}
+.abierto
+{
+	background-color: #5CB85C;
+}
+TBODY TR TD.abierto
+{
+	vertical-align: middle;
+}
+.outSistema
+{
+	background-color: #F9DD4B;
+}
+TBODY TR TD.outSistema
+{
+	vertical-align: middle;
+}
+.cerrado
+{
+	background-color: #D9534F;
+}
+TBODY TR TD.cerrado
+{
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+TD.ver:hover, TD.ver:active
+{
+	background: #335EFF;
+	cursor: pointer;
+}
+TBODY TR TD.ver
+{
+	vertical-align: middle;
+}
+.sinPadding [class*="col-"]
+{
+	padding: 0;
+}
+.alturaFiltros
+{
+	height: 120px;
+}
+
+input[type=checkbox]:not(old),
+input[type=radio   ]:not(old){
+  width   : 28px;
+  margin  : 0;
+  padding : 0;
+  opacity : 0;
+}
+
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -28px;
+  padding-left : 28px;
+  background   : url('../img/checks.png') no-repeat 0 0;
+  height: 22px;
+  min-width: 28px;
+}
+
+input[type=checkbox]:not(old):checked + label{
+  background-position : 0 -24px;
+}
+
+input[type=radio]:not(old):checked + label{
+  background-position : 0 -48px;
+}
